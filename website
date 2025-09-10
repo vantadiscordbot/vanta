@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vanta | Discord Bot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5em;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+    a.button {
+      padding: 0.8em 1.5em;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      transition: 0.2s;
+    }
+    a.invite {
+      background: #5865F2; /* Discord blurple */
+    }
+    a.support {
+      background: #444;
+    }
+    a.button:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Vanta</h1>
+    <p>Your all-in-one Discord bot for any server!</p>
+    <div class="buttons">
+      <a href="YOUR_BOT_INVITE_LINK" class="button invite">INVITE THE BOT</a>
+      <a href="YOUR_SUPPORT_SERVER_LINK" class="button support">SUPPORT SERVER</a>
+    </div>
+  </div>
+</body>
+</html>
